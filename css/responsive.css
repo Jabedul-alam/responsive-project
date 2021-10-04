@@ -1,0 +1,363 @@
+
+/*lg responsive*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* banner lg responsive*/
+   #banner_nav {
+      height: 670px;
+  }
+  #banner .banner-content h1 {
+   font-size: 55px;
+   margin-bottom: 25px;
+}
+
+#banner .banner-content .banner_btn {
+   padding: 7px 14px;
+   font-weight: 600;
+   font-size:14px;
+}
+#main-nav #main-menu ul li a {
+	padding: 21px 16px;
+}
+#banner .banner-content h5 {
+   margin-bottom: 30px;
+}
+ /* banner lg responsive end*/
+  /* about lg responsive strat*/
+  #about .about_content h2 {
+   margin-bottom: 20px;
+}
+#about .about_content h6 {
+   margin-bottom: 20px;
+}
+#about .about_content{
+   padding-top: 20px;
+}
+#about .about_content .ab_btn {
+   padding: 15px 25px;
+   font-size: 15px;
+}
+#about .about_content .ab_btn_2 {
+   font-size: 15px;
+}
+#about {
+   padding: 100px 0;
+}
+/*about lg responsive end*/
+/*service lg section strat*/
+#service {
+   padding: 100px 0;
+}
+#service .service_item .serv_icon i {
+   height: 70px;
+   width: 70px;
+   line-height: 70px;
+}
+#service .service_item .serv_icon {
+   margin-bottom: 20px;
+}
+#service .service_item h4 {
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+}
+dl, ol, ul {
+   margin-top: 0;
+   margin-bottom: 0rem;
+}
+p {
+   line-height: 28px;
+}
+#service .service_item {
+   padding: 20px 25px;
+   margin-top: 25px;
+}
+.section_title {
+   margin-bottom: 45px;
+}
+/**service lg section END*/
+/*work lg responsive strat*/
+#work .work_item .extra-2 {
+	left: 53%;
+}
+#work .work_item .work_time {
+	padding-right: 2px;
+	left: 63%;
+}
+#work .work_item .extra {
+	left: 75%;
+}
+#work {
+	padding: 100px 0;
+}
+/*skill section lg responsive*/
+
+#skill {
+   padding: 100px 0;
+}
+/*skill section lg responsive end*/
+/*gallery section lg responsive*/
+
+#gallery {
+	padding: 100px 0;
+
+}
+#gallery .port-load {
+	padding: 15px 25px;
+	font-size: 15px;
+}
+/*gallery section lg responsive end*/ 
+}
+/*md responsive*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .section_title {
+      margin-bottom: 40px;
+      margin-top: -15px;
+  }
+/* naver md responsive strat*/
+  #main-nav #main-menu ul li a {
+	padding: 11px 16px;
+   color: black;
+   }
+ /* naver md responsive end*/
+ /* baner md responsive strat*/
+   #banner_nav {
+   height: 540px;
+   }
+   #banner .banner-content h5 {
+      margin-bottom: 30px;
+  }
+   #banner .banner-content h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+  }
+  #banner .banner-content .banner_btn {
+   padding: 4px 10px;
+   font-size: 14px;
+}
+/* banner md responsive end*/
+ /* about md responsive strat*/
+#about {
+   padding: 80px 0;
+}
+/*service md responsives  strat*/
+#service .service_item .serv_icon i {
+   height: 65px;
+   width: 65px;
+   line-height: 65px;
+}
+#service .service_item .serv_icon {
+   margin-bottom: 15px;
+}
+#service .service_item h4 {
+   margin-bottom: 27px;
+   padding-bottom: 27px;
+}
+dl, ol, ul {
+   margin-top: 0;
+   margin-bottom: 0rem;
+}
+#service .service_item {
+   padding: 15px 13px;
+   margin-top: 25px;
+}
+#service {
+   padding: 80px 0;
+}
+/* service md responsive end*/
+/*skill md responsive strat*/
+
+#skill {
+   padding:50px 0;
+}
+#skill a .fa-play {
+
+   margin: 30px 10px;
+}
+/* skill md responsive end*/
+/* work  md responsive strat*/
+
+#work {
+	padding: 80px 0;
+}
+/* work  md responsive end*/
+/*gallery section lg responsive*/
+
+#gallery {
+	padding: 80px 0;
+
+}
+#gallery .port-load {
+	padding: 13px 22px;
+	font-size: 14px;
+   margin-top: 70px;
+}
+/*gallery section lg responsive end*/ 
+}
+/*sm responsive*/
+@media (min-width: 576px) and (max-width:767.98px) { 
+  /*banner section sm responsive strat*/
+   #banner_nav {
+      height: 480px
+  }
+  #banner .banner-content h1 {
+   font-size: 35px;
+   margin-bottom: 10px;
+}
+#banner .banner-content h5 {
+   margin-bottom: 20px;
+   font-size: 18px;
+}
+#banner .banner-content p {
+   font-size: 16px;
+   margin-bottom:30px;
+   padding: 0px 20px;;
+}
+#banner .banner-content .banner_btn {
+   padding: 4px 8px;
+   font-size: 12px;
+}
+ /*banner section sm responsive end*/
+  /*service section sm responsive strat*/
+ .section_title {
+   margin-bottom: 35px;
+}
+#service .service_item {
+   padding: 30px 20px;
+}
+/*service section sm responsive end*/
+/*skill section sm responsive strat*/
+
+#skill {
+   padding: 65px 0px;
+}
+#skill a .fa-play {
+
+   margin: 30px 10px;
+}
+/*skill section sm responsive end*/
+/*work section sm responsive strat*/
+#work .work_item .extra {
+   right: -40px;
+}
+#work .work_item .work_time {
+   left: 68%;
+   padding-right: 0px;
+}
+#work {
+   padding: 65px 0;
+}
+#work .work_item {
+   margin-top: 10px;
+}
+/*work section sm responsive end*/
+#gallery {
+	padding: 70px 0;
+
+}
+#gallery .port-load {
+	padding: 13px 22px;
+	font-size: 14px;
+   margin-top: 50px;
+}
+}
+/*sm responsive*/
+@media (max-width:575.98px) { 
+.navbar-nav {
+   background-color: #fff;
+   }
+   #main-nav #main-menu ul li a {
+      padding: 5px 16px;
+      color: black;
+      }
+      /*banner section mobile responsive strat*/
+      #banner_nav {
+         height: 450px;
+     }
+   #banner .banner-content h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+   #banner .banner-content h5 {
+      margin-bottom: 5px;
+      font-size: 19px;
+  }
+  #banner .banner-content .banner_btn {
+   padding: 2px 7px;
+   font-size: 13px;
+}
+#banner .banner-content p {
+   font-size: 18px;
+   line-height: 30px;
+   margin-bottom: 20px;
+}
+/*banner section mobile responsive end*/
+/*about section mobile responsive strat*/
+#about .about_content h2 {
+   font-size: 24px;
+   margin-bottom: 18px;
+   }
+   #about {
+      padding: 65px 0;
+  }
+  #about .about_content .ab_btn {
+   padding: 15px 20px;
+   font-size: 14px;
+}
+   /*about section mobile responsive end*/
+
+/*service section mobile responsive strat*/
+   .section_title {
+      margin-bottom: 25px;
+  }
+  #service .service_item {
+   padding: 26px;
+   margin-top: 20px;
+}
+  /*service section mobile responsive end*/
+  /*skill section mobile responsive strat*/
+  #skill a .fa-play {
+
+   margin: 30px 90px;
+}
+#skill {
+   padding: 30px 0;
+}
+#skill .skil_title h3 {
+   margin-bottom: 15px;
+   line-height: 32px;
+}
+  /*skill section mobile responsive end*/
+/*work section mobile responsive strat*/
+  #work .work_item .work_time {
+   padding-right: 0px;
+   left: 65%;
+}
+#work .work_item .medium {
+   font-size: 14px;
+   line-height: 25px;
+}
+/*work section mobile responsive end*/
+#gallery {
+	padding: 65px 0;
+
+}
+#gallery .port-load {
+   padding: 14px 20px;
+   font-size: 14px;
+   margin-top: 50px;
+}
+}
+@media (max-width:991.98px){
+.navbar-nav {
+   background-color: #fff;
+   }
+#main-nav #main-menu ul li a {
+	padding: 11px 16px;
+   color: black;
+   }
+   #work .work_item {
+      margin-top: 10px;
+   }
+   #skill a .fa-play {
+      text-align: center;
+   }
+}
