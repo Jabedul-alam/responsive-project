@@ -274,10 +274,10 @@ dl, ol, ul {
      }
    #banner .banner-content h1 {
       font-size: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
    }
    #banner .banner-content h5 {
-      margin-bottom: 5px;
+      margin-bottom: 0px;
       font-size: 19px;
   }
   #banner .banner-content .banner_btn {

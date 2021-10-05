@@ -22,4 +22,9 @@ $(function (){
             scrollTop:0
         },10000)
     })
+    $('.active ').slick({
+        prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
+       nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
+
+    })
 })

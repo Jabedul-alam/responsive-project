@@ -549,7 +549,49 @@ z-index: 1;
 #gallery .port-load:hover{
     background-color: var(--clr-def);
 }
+#gallery .port-load:hover a{
+    color: #fff;
+}
+/*Gallery  section end*/
 
+/*client section strat*/
+
+#client{
+    background-color: var(--clr-bg);
+    padding: 120px 0;
+    position: relative;
+}
+#client img{
+    display: inline-block;
+}
+#client .banner_arrow{
+    bottom: 50%;
+    position: absolute;
+	border: 1px solid #fff;
+	font-size: 15px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+    transition: all linear .3s;
+}
+#client .fa-chevron-right {
+	right: -20%;
+}
+#client .fa-chevron-left {
+	left: -20%;
+}
+
+#client .banner_arrow:hover{
+    background-color: var(--clr-def);
+    color: var(--clr-white);
+}
+#client .review .client-text{
+        padding: 0px 80px;
+        margin-bottom: 15px;
+
+}
+/*client section end*/
 /*back to top*/
 #back {
     font-size: 40px;
