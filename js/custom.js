@@ -27,4 +27,9 @@ $(function (){
        nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
 
     })
+    $('.slider ').slick({
+        prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
+       nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
+       slidesToShow: 3,
+    })
 })
