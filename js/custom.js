@@ -20,7 +20,7 @@ $(function (){
     $('#back').on('click',function(){
         $("html,body").animate({
             scrollTop:0
-        },10000)
+        },1000)
     })
     $('.active ').slick({
         prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
