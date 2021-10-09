@@ -31,5 +31,29 @@ $(function (){
         prevArrow:"<i class='fas fa-chevron-left banner_arrow'></i>",
        nextArrow:"<i class='fas fa-chevron-right banner_arrow'></i>",
        slidesToShow: 3,
+       responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+             
+            }
+
+          },
+          {
+            breakpoint:577 ,
+            settings: {
+              slidesToShow: 1,
+              arrows:false,
+            }
+          },
+    ]
     })
+    
 })

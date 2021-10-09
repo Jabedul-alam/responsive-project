@@ -105,7 +105,12 @@ p {
 	font-size: 15px;
 }
 /*gallery section lg responsive end*/ 
+/*client section lg responsive strat*/
+#update .fa-chevron-right {
+   right: 45%;
 }
+}
+
 /*md responsive*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
    .section_title {
@@ -179,7 +184,7 @@ dl, ol, ul {
 	padding: 80px 0;
 }
 /* work  md responsive end*/
-/*gallery section lg responsive*/
+/*gallery section md responsive*/
 
 #gallery {
 	padding: 80px 0;
@@ -190,7 +195,47 @@ dl, ol, ul {
 	font-size: 14px;
    margin-top: 70px;
 }
-/*gallery section lg responsive end*/ 
+/*gallery section md responsive end*/ 
+/*client section md responsive strat*/
+#client .fa-chevron-right {
+   right: 3%;
+}
+#client .fa-chevron-left {
+   left: 0%;
+}
+#client {
+   padding: 100px 0;
+}
+/*client section md responsive end*/ 
+/*price section md responsive strat*/
+#price {
+    padding: 100px 0;
+}
+#price .price_content .price_list {
+   padding: 70px 50px 30px 50px;
+}
+/*price section md responsive end*/ 
+/*update section md responsive strat*/
+#update {
+   padding: 100px 0;
+}
+#update .update_dr {
+   padding: 10px 0px 10px;
+}
+#update .update_dlts .up_overley {
+   top: 8px;
+   left: 6px;
+}
+#update .bg-c {
+   padding: 15px;
+   border-radius: 8px;
+}
+#update .fa-chevron-right {
+   right: 41%;
+}
+#contact{
+   padding: 100px 0;
+}
 }
 /*sm responsive*/
 @media (min-width: 576px) and (max-width:767.98px) { 
@@ -258,7 +303,33 @@ dl, ol, ul {
 	font-size: 14px;
    margin-top: 50px;
 }
+/*client section strat */
+#client {
+   padding: 80px 0;
 }
+#client .fa-chevron-left {
+   left: 10%;
+}
+.banner_arrow {
+   bottom: 26%;
+}
+#client .fa-chevron-right {
+   right: 10%;
+}
+/*client section end */
+/*price section strat */
+#price .price_content .price_list {
+   padding: 60px 21px 34px 27px;
+}
+#price{
+   padding: 80px 0;
+}
+#price .price_btn a {
+   padding: 13px 22px;
+   font-size: 14px;
+}
+}
+
 /*sm responsive*/
 @media (max-width:575.98px) { 
 .navbar-nav {
